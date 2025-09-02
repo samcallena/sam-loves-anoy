@@ -1,2 +1,45 @@
 # sam-loves-anoy
 It's not about being the best. It's about being better than you were yesterday.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Encouragement 💕</title>
+</head>
+<body>
+  <script>
+    // Ask for input
+    let average = parseInt(prompt("What's your final average this first quarter?"));
+
+    // Conditions
+    if (average === 75) {
+      alert("Love, okay lang ‘yan. Passing is still an achievement. " +
+            "I know mahirap at nakakapagod pero kinaya mo pa rin. " +
+            "Proud ako sa 'yo kasi hindi ka sumuko, here lang ako to help you get better. " +
+            "Remember, grades don’t define you, hinding-hindi magbabago pagtingin ko sa 'yo. " +
+            "I love you, Anoy! 😘💕");
+    } else if (average >= 76 && average <= 79) {
+      alert("Love, nice one! Consistent ka and stable, at alam kong pinaghirapan mo ‘yan. " +
+            "May room pa to grow, and I believe kaya mo pang mas mataas kung gugustuhin mo. " +
+            "Pero kahit saan ka mapunta, proud ako sa 'yo, nandito ako lagi to support you. " +
+            "Kahit anong average man 'yan, never magbabago turing ko sa 'yo. " +
+            "I love you, Anoy! 😘💕");
+    } else if (average >= 80 && average <= 89) {
+      alert("Love, ang galing mo! That is already a strong average, and it shows yung effort at dedication mo. " +
+            "Alam kong hindi madali pero kinaya mo pa rin. I’m beyond proud of you. " +
+            "Kung gusto mo pang i-push higher, susuportahan kita, pero kung kailangan mo ng rest, please, don't forget to rest, okay? " +
+            "Deserve na deserve mo ‘yan. And kahit anong grade pa 'yan, hinding-hindi magbabago pagmamahal na mayro'n ako sa 'yo. " +
+            "I love you, Anoy! 😘💕");
+    } else if (average >= 90 && average <= 100) {
+      alert("Love, grabe, congrats! That is an amazing achievement. " +
+            "Alam kong hindi lang ito dahil sa talino mo kundi sa effort at sipag mo rin. " +
+            "Proud ako sobra, pero tandaan mo, kahit gaano kataas o kababa 'yung grade, you’ll always be the same person I admire and love. " +
+            "Hinding-hindi magbabago 'yan. I love you, Anoy! 😘💕");
+    } else {
+      alert("Love, hindi valid yung average na nilagay mo. Pero kahit ano pa man yan, " +
+            "proud pa rin ako sa'yo at nandito lang ako lagi. I love you, Anoy! 😘💕");
+    }
+  </script>
+</body>
+</html>
